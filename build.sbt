@@ -34,7 +34,7 @@ OsgiKeys.bundleSymbolicName := "org.gnieh.tekstlib"
 
 OsgiKeys.privatePackage := Seq()
 
-defaultScalariformSettings
+scalariformSettings
 
 ScalariformKeys.preferences := {
   import scalariform.formatter.preferences._
