@@ -10,6 +10,8 @@ crossScalaVersions := Seq("2.11.7", "2.10.4")
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.1" % "test"
 
+libraryDependencies += "org.scodec" %% "scodec-bits" % "1.1.0"
+
 scalacOptions in (Compile, doc) ++= Seq("-doc-root-content", "rootdoc.txt")
 
 scalacOptions ++= Seq("-deprecation", "-feature")
